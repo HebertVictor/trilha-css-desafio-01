@@ -134,10 +134,17 @@ h2 {
 }
 
 footer {
+  padding: 60px 0;
   border-top: 1px solid #33a8db80;
   text-align: center;
   background-image: linear-gradient(
     rgba(50, 168, 219, 0),
     rgba(50, 168, 219, 0.2)
   );
+}
+
+footer a {
+  color: #33a8db;
+  font-weight: bold;
+  text-decoration: none;
 }
