@@ -1,1 +1,45 @@
 @import url("reset.css");
+
+body {
+  background-color: black;
+}
+
+.banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/banner.png");
+
+  text-align: center;
+  height: 550px;
+  border-bottom: 1px solid #33a8db80;
+}
+
+.banner p {
+  color: white;
+}
+
+.banner h1 {
+  color: transparent;
+  background: -webkit-linear-gradient(#33a8db, #1472b7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.banner .logo {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  margin: auto;
+  padding: 12px 12px;
+  margin-bottom: 20px;
+}
+
+.banner .button {
+  font-size: 1rem;
+}
